@@ -1,0 +1,64 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/out
+/lib
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+# Project exclude paths
+/out/# Compiled class file
+     *.class
+
+     # Log file
+     *.log
+
+     # BlueJ files
+     *.ctxt
+
+     # Mobile Tools for Java (J2ME)
+     .mtj.tmp/
+/.idea/dataSources/ca3c58b5-9f2e-4287-811d-1c886be1899b/storage_v2/_src_/schema/sys.zb4BAA.meta
+/.idea/dataSources/ca3c58b5-9f2e-4287-811d-1c886be1899b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta
+/.idea/dataSources/ca3c58b5-9f2e-4287-811d-1c886be1899b.xml
+/.idea/dataSources/ca3c58b5-9f2e-4287-811d-1c886be1899b/storage_v2/_src_/schema/mysql.osA4Bg.meta
+/.idea/dataSources/ca3c58b5-9f2e-4287-811d-1c886be1899b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta

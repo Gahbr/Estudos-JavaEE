@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Servlets-Agenda:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Servlets_Agenda_war</output-path>
+    <root id="archive" name="Servlets-Agenda_war.war">
+      <element id="artifact" artifact-name="Servlets-Agenda:war exploded" />
+    </root>
+  </artifact>
+</component>
