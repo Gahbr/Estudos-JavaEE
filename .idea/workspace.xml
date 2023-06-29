@@ -10,7 +10,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f6fd02d-777e-4581-815a-326fcbcef31f" name="Changes" comment="" />
+    <list default="true" id="4f6fd02d-777e-4581-815a-326fcbcef31f" name="Changes" comment="feat: initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/logica/AdicionaContatoLogica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/logica/ListaContatosLogica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/logica/ListaContatosLogica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/logica/RemoveContatoLogica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/logica/RemoveContatoLogica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servletsagenda/AdicionaContatoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servletsagenda/AdicionaContatoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servletsagenda/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servletsagenda/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/adiciona-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adiciona-contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bemvindo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cabecalho.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cabecalho.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contato-adicionado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contato-adicionado.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/digita-idade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/digita-idade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lista-contatos-old.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/lista-contatos-old.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lista-contatos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/lista-contatos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lista-contatos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/lista-contatos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mostra-idade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mostra-idade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/primeira-logica.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/primeira-logica.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/rodape.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/rodape.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,19 +41,19 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -67,12 +87,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/IdeaProjects/Servlets-Agenda/src/main/webapp/WEB-INF/lib&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Downloads/naturacode-loginsso-c8225a50b072/naturacode-loginsso-c8225a50b072&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
@@ -92,6 +113,10 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\java\com\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\webapp" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\webapp\css" />
+      <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\webapp\jsp" />
       <recent name="C:\Users\Lenovo\IdeaProjects\Servlets-Agenda\src\main\webapp\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -319,8 +344,20 @@
       <workItem from="1687809860789" duration="11243000" />
       <workItem from="1687871934988" duration="18199000" />
       <workItem from="1687957623174" duration="15225000" />
-      <workItem from="1687983259061" duration="230000" />
+      <workItem from="1687983259061" duration="471000" />
+      <workItem from="1687983741294" duration="3828000" />
+      <workItem from="1687994146208" duration="1576000" />
+      <workItem from="1688042602806" duration="4299000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: initial commit">
+      <option name="closed" value="true" />
+      <created>1687983643976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687983643976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,5 +373,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: initial commit" />
   </component>
 </project>

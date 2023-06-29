@@ -7,11 +7,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
 <body>
   <h2>Agenda de contatos</h2>
-  <img src="images/images.png" alt="logo"/>
+  <c:url var="rootPath" value="/" />
+  <img src="${rootPath}images/images.png" alt="logo"/>
 </body>
 </html>

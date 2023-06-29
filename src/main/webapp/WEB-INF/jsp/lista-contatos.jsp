@@ -6,20 +6,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="dao" class="com.example.model.ContatoDAO"/>
 
 <html>
 <head>
     <title>Lista de contatos</title>
-    <link rel="stylesheet" type="text/css" href="lista-contatos.css">
+    <c:url var="rootPath" value="/" />
+    <link rel="stylesheet" type="text/css" href="${rootPath}/css/lista-contatos.css">
 
 </head>
 <body>
 <c:import url="cabecalho.jsp"/>
-<%
-    List<Contato> contatos = dao.getLista();
-    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-%>
+
+<h2> Lista de contatos </h2>
 <table>
     <tr>
         <th>Nome</th>
@@ -27,27 +25,7 @@
         <th>Endereço</th>
         <th>Data de Nascimento</th>
     </tr>
-    <% for (Contato contato : contatos) {
-        String formattedDate = dateFormat.format(contato.getDataNascimento().getTimeInMillis());
-    %>
-    <tr>
-        <td><%=contato.getNome()%></td>
-        <td><%=contato.getEmail()%></td>
-        <td><%=contato.getEndereco()%></td>
-        <td><%=formattedDate%></td>
-    </tr>
-    <% } %>
-</table>
-<hr>
-<h2> Tabela utilizando JSTL</h2>
-<table>
-    <tr>
-        <th>Nome</th>
-        <th>Email</th>
-        <th>Endereço</th>
-        <th>Data de Nascimento</th>
-    </tr>
-    <c:forEach var="contato" items="${dao.lista}">
+    <c:forEach var="contato" items="${contatos}">
         <tr>
             <td>${contato.nome}</td>
             <td>

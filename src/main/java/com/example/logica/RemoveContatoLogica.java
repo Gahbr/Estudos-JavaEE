@@ -12,6 +12,6 @@ public class RemoveContatoLogica implements Logica {
         ContatoDAO dao = new ContatoDAO();
         dao.deletaContato(id);
         System.out.println("Excluindo contato...");
-        return "lista-contatos.jsp";
+        return "/WEB-INF/jsp/lista-contatos.jsp";
     }
 }

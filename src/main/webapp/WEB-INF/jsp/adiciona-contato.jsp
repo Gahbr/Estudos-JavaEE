@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="lista-contatos.css">
+    <link rel="stylesheet" type="text/css" href="../../css/lista-contatos.css">
 </head>
 <body>
 <c:import url="cabecalho.jsp"/>
 
-    <form action="adicionaContato" method="POST">
+    <form action="mvc?logica=AdicionaContatoLogica" method="POST">
         Nome: <input type="text" name="nome" /><br />
         E-mail: <input type="text" name="email" /><br />
         Endereço: <input type="text" name="endereco" /><br />
